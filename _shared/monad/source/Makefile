@@ -19,7 +19,7 @@ endif
 LIBS:=
 IS_LIBRT:=$(shell echo "int main(){}" | clang++ -o /dev/null -x c++ - -lrt >/dev/null 2>/dev/null ; echo $$?)
 IS_LIBPNG:=$(shell echo "int main(){}" | clang++ -o /dev/null -x c++ - -lpng >/dev/null 2>/dev/null ; echo $$?)
-IS_LIBCXXABI:=$(shell echo "int main(){}" | clang++ -o /dev/null -x c++ - -lc++abi  >/dev/null 2>/dev/null ; echo $$?)
+IS_LIBCXXABI:=$(shell echo "int main(){}" | clang++ -o /dev/null -x c++ - -lc++abi -lpthread  >/dev/null 2>/dev/null ; echo $$?)
 IS_LIBSVN:=$(shell echo "struct svn_version_t { int major, minor, patch; }; const struct svn_version_t *svn_subr_version(void); int main() { const struct svn_version_t *v = svn_subr_version(); return !(v->major == 1 && v->minor >= 6); }" | clang++ -o svn-version-check -x c - -lsvn_client-1 -lsvn_ra-1 -lsvn_subr-1 -lsvn_delta-1 -lapr-1 >/dev/null 2>/dev/null && ./svn-version-check ; echo $$? ; rm -f svn-version-check)
 ifeq ($(IS_LIBRT),0)
 LIBS+= -lrt
@@ -28,7 +28,7 @@ ifeq ($(IS_LIBPNG),0)
 LIBS+= -lpng 
 endif
 ifeq ($(IS_LIBCXXABI),0)
-LIBS+= -lc++abi
+LIBS+= -lc++abi -lpthread
 endif
 ifeq ($(IS_LIBSVN),0)
 LIBS+= -lsvn_client-1 -lsvn_ra-1 -lsvn_subr-1 -lsvn_delta-1 -lapr-1
