@@ -1,0 +1,18 @@
+CS225 Daily Exercise
+
+Consider the given file q9.cpp, which has the following code:
+
+int main(){
+    int ** a = new int *[2];
+    int b = 3;
+    a[0] = &b;
+    a[1] = new int;
+    *(a[1]) = 5;
+    int ** c = new int *;
+    *c = new int;
+    int *** d = &c;
+
+    return 0;
+}
+
+Write code to free up the memory used. Be sure to set all pointers on the stack to point to NULL when they are no longer pointing to valid memory.

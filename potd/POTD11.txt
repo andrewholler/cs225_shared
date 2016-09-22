@@ -1,0 +1,12 @@
+The Problem
+CS225 Daily Exercise
+
+    Write a student class that has two private member variables: name and grade (e.g., 6, 11).
+    Write the functions to access those private member variables. Write the default constructor.
+    Write the function graduate that is not part of the class which increases the grade of a student by one. This function should be called by passing a student object by reference.
+    Write a main method that creates an instance of the student class, prints out the grade, calls graduate on it, and prints out the new grade.
+
+Sample output:
+
+Sally is in grade 5.
+Sally is in grade 6.

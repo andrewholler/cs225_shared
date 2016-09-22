@@ -1,0 +1,9 @@
+CS225 Daily Exercise
+
+Write three broken programs:
+
+    nonCompile.cpp, a program that does not compile.
+    segFault.cpp, a program that segfaults when run.
+    leak.cpp, a program that leaks memory.
+
+Explain in the comments why each of these program fails.

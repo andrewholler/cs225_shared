@@ -1,0 +1,10 @@
+CS225 Daily Exercise
+
+You will be writing an pet class with the following variables:
+
+    name
+    birth_year
+    type (e.g., dog, cat, platypus)
+    owner_name
+
+and functions that allow you to access and set each of these variables. Make sure the names match up. For example, the birth_year variable should have getter get_birth_year and setter set_birth_year. In a comment, explain why you chose to make variables and functions private or public. 

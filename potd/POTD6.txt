@@ -1,0 +1,14 @@
+Write a program that does the following:
+
+    Creates an integer x on the stack with value 2016
+    Prints out the address of x and the value of x
+    Creates an integer pointer p on the HEAP
+    Assigns the pointer to point to x
+    Changes the value of x to 2017 via p
+    Prints out the address of x and its value using only p.
+    Make sure that your program has no memory leaks.
+
+Sample Output:
+
+x is stored at address 0x7fff55a88a38 and has value 2016
+x is stored at address 0x7fff55a88a38 and has value 201

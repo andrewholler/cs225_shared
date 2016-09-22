@@ -1,0 +1,8 @@
+CS225 Daily Exercise
+
+Create variable x on the stack which points to an array of 5 characters on the heap. Create a variable y on the stack that holds the address of x. Print out the value of y. Print out the sum of the ASCII values of the characters in your array. Make sure your program has no memory leaks.
+
+Sample output:
+
+The value of y is 0x7fff55a88a38.
+The sum of the characters is 532.

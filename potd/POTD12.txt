@@ -1,0 +1,10 @@
+The Problem
+
+    Write a program that prompts the user to enter 's' or 'c'. You should continue to prompt the user to enter 's' or 'c' until one of these characters is entered or until ‘q’ is entered.
+        ‘q’ should exit the program.
+
+    After the user enters 's' or 'c', prompt the user to enter a number.
+        You can assume the user will enter a valid number.
+        If the user entered 's' the print out sin(number) and return 0.
+        If the user entered 'c' print out cos(number) and return 0.
+
