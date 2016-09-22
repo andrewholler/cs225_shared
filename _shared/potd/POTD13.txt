@@ -1,0 +1,10 @@
+The Problem
+
+    Write a function raise (not a program) that accepts an array of integers and an integer as the input parameters
+        The input array will have exactly one negative value as the very last element of the array
+
+        The function should create an array on the heap that contains the values of the input array each raised to the power of the second input parameter (besides the last negative element of the original array which should remain the same in the new array)
+            (HINT: there is a library function that might help you with this)
+        Return the starting address of this array
+
+        Include any libraries you use at the top of the file

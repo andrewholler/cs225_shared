@@ -1,0 +1,10 @@
+CS225 Daily Exercise
+
+Write two constructors for the pet class you defined in question 3. The given code pet.cpp and pet.h contain the solution so you can start from there. One constructor should be the default constructor (how many arguments should it have?) and will assign the member variables the following values:
+
+    name: Rover
+    birth_year: 2016
+    type: dog
+    owner_name: Cinda
+
+The other constructor should take in the name, birth year, type, and owner of the pet as arguments and set the member variables accordingly.

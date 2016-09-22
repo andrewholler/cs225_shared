@@ -1,0 +1,9 @@
+The Problem
+
+    Write a square class that has two member variables:
+        a double * length
+        a string name
+    Write a default constructor that assigns name to be "mysquare" and assign length to point to a double on the heap with value 2.0
+    Write the copy constructor and destructor for the square class
+        Have the copy constructor print out the line "I am copying!"
+    Write a main function that by doing two different things, causes the line "I am copying!" to be printed

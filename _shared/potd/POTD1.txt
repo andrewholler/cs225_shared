@@ -1,0 +1,10 @@
+CS225 Daily Exercise
+
+You will be writing a program that prints out your name and age to stdout. TODO:
+
+    create a variable to hold your age
+    create a variable to hold your name
+    initialize the values of these two variables
+    write a main function that prints: "Hello world! My name is your_name and I am your_age years old." with a newline at the end where your_name and your_age are the values of your name and age variables.
+
+Text is stored in a string type in C++. We haven't gone over that in class yet, but a quick Google search should enlighten you how to use it.
