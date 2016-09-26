@@ -1,0 +1,14 @@
+The Problem
+
+    Write a templated class BankAccount
+        It should have a private member balance
+        It should have public functions
+            getBalance
+            add (accepts an amount, adds it to balance, returns nothing)
+            remove (accepts an amount, subtracts it from balance, returns nothing)
+            a constructor that takes in the initial balance as a parameter
+    Write a main function with two bank accounts
+        The first bank account should be able to store dollars and change
+        The second bank account is at a bank that refuses to accept change, so the amounts involved in transactions will only be integers
+        Each account should start with a $2000 balance
+        Add .50 to the first bank account and remove .50 from the second

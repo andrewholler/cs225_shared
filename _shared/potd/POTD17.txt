@@ -1,0 +1,12 @@
+The Problem
+
+    Write a class Pet that is derived from the Animal class
+        In addition to the animal_type and food_type variables, Pet should have a private variable name and private variable owner_name
+        Write functions that get and set the type of food, name, and owner name of the pet class
+        Write a function print that prints "My name is __ __." where the blank is the value of the name variable
+        Write a default constructor for pet that initializes animal_type to cat, food_type to fish, name to "Fluffy", and owner_name to "Cinda" and a constructor that takes in the type of animal, type of food, name, and owner name as parameters
+    Create a main function
+        Produce the following output by calling only the print functions you have writen:
+
+I am a cat.
+My name is Garfield.
