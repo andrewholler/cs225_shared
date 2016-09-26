@@ -1,0 +1,12 @@
+The Problem
+
+    Write a class Animal
+        An Animal should have the type of animal as a string
+            This variable should only be able to be changed by functions of the animal class
+        An Animal should have the type of food the animal eats as a string
+            This variable should be able to be accessed by functions of the animal class as well as functions of derived classes
+        Write the accessor and mutator/getter and setter functions for each of these variables
+        write a function print (that is part of the Animal class) that prints out "I am a animal_type."
+            This method should be able to be overridden by derived classes
+        Write a default constructor for Animal that initializes animal_type to "cat" and food_type to "fish" and a constructor that accepts the type of the animal and type of food as parameters
+

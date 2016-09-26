@@ -1,0 +1,9 @@
+The Problem
+
+    Write a templated function more with takes in two variables of the same type and returns whichever variable is greater than (>) the other
+    Write a main method that uses the more function on two instances of the food class that has been provided for you to print out which food you have more of
+        (HINT: you might have to add something to the food class in order for more to be able to be called propperly.)
+
+For example, if we had 8 apples and 6 oranges than your program should output:
+
+We have more apples.
