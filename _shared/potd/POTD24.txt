@@ -1,0 +1,13 @@
+The Problem
+
+Write an insertSorted method that returns nothing and accepts a node ** (the head of a linked list) and a node * (the node you will insert into the list) as parameters. Insert the new node into the list so the list remains in sorted order. If the value of the new node is already in the list you can insert it before or after the other node with the same value. You may assume that the list passed into the function is sorted (but might be empty). You can assume that the node * will never be NULL (you will always be inserting a node).
+
+Example: List: 1 2 3 5 Inserting: 4
+
+List: 1 2 3 4 5
+
+You can (and should, like really, really should) write a main method to test your funcitons.
+
+If you do not understand why a node** is being passed in, read the following:
+
+We are just passing a pointer "by pointer". What would happen if we just normally passed a node *head representing the head of the linked list into the function? We could still alter the node that head points to. But what if we want to change the head pointer itself? E.g., what if we wanted to insert a new node into the front of the list? If we just called the function like this: insertSorted(head, node) where head is a node *, then the memory address stored in the pointer is copied into the function. The function can change the pointer, but this will only change the copy of the pointer, not the pointer that lives outside the function. To change the address stored in the pointer we need to pass by pointer. The function call would then look like: insertNode(&head, node). We also could have passed the pointer by reference, though we would have to change the function signature to be: insertSorted(node * & head, node * n).

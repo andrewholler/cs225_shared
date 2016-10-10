@@ -1,0 +1,13 @@
+The Problem
+
+    Write a program that takes an integer n from stdin as input, creates an nxn array of integers on the heap where each entry is the sum of its row index and column index (assume index starts at 0), and then prints out the values of the array by row
+        Make sure your program has no memory leaks!
+        You can assume the user enters a non-negative integer
+
+Sample output with n = 3
+
+0 1 2
+
+1 2 3
+
+2 3 4

@@ -1,0 +1,13 @@
+The Problem
+
+Write a method printList that accepts a node * (the head of the list) as a parameter and returns nothing. The method should print out the list in the following format:
+
+Example list: 1 2 3
+
+Node 0: 1
+Node 1: 2
+Node 2: 3
+
+If the list is empty then the function should print "Empty list"
+
+You can (and should) write a main method to test your funciton.
