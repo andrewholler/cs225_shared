@@ -1,0 +1,10 @@
+The Problem
+
+    Write a program that takes in an input string from stdin and prints out the character that appears most frequently in the string (regardless of case, e.g. in "Haha", "h" and "a" both appear twice)
+        You can assume the string will only contain upper and lowercase letters and spaces
+        (HINT: ask Google about the map data structure in the STL.)
+        If there is a tie in the frequency of two letters, print out the one that is alphabetically first
+
+Sample output with input string "Hello world":
+
+The most frequent character is l

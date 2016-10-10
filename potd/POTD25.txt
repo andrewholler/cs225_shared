@@ -1,0 +1,5 @@
+The Problem
+
+Write a sortList method that accepts a node ** (the head of a linked list) as a parameter and returns nothing. It should sort the list passed in as a parameter and return a pointer to the sorted list's head. You may NOT call new. You need to rearrange the nodes that have already been allocated.
+
+You should be doing this at this point without prompting, but just in case: write a main method with test cases to see if your function works properly in all scenarios!

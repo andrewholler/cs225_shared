@@ -1,0 +1,17 @@
+The Problem
+
+    Write a program that prompts the user to enter a word and then convert that string to pig latin
+    Here is how you should convert a string to pig latin:
+        If the word starts with a vowel (a, e, i, o, u, y), tack "ay" onto the end of the word
+        If the word starts with a consonant (anything else), remove the consonants up to the first vowel, tack the consonants onto the end of the word, add "ay" onto the end of the word
+        If there are no vowels in the inputed word, just tack "ay" onto the end of the word
+    If the string is "q", your program should exit
+    You program should keep prompting and accepting strings until "q" is entered
+
+Sample input/output:
+
+input: east output: eastay
+
+input: n output: nay
+
+input: west output: estway
