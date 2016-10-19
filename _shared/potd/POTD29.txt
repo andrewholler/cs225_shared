@@ -1,0 +1,6 @@
+The Problem
+
+Write a method sortList that accepts a node ** (the head of a linked list) and returns nothing. The list will only contain integers 1, 3, and 5. The method should sort the linked list the linked list (with duplicates).
+
+Input: 3 5 1 1 3 5
+Output: 1 1 3 3 5 5
