@@ -1,0 +1,23 @@
+The Problem
+
+Look at the new node struct provided for you. This represents a node in a binary tree. Write a mehtod smoosh that accepts a node * (the root of a binary tree) and returns nothing. The method should transform a binary tree into a linked list in the following manner:
+
+Binary tree:
+     1
+    / \
+   2   5
+  / \   \
+ 3   4   6
+
+Linked list:
+1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
