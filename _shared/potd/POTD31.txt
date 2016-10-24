@@ -1,0 +1,5 @@
+The Problem
+
+Create a class Queue. The queue should be implemented with a dynamically allocated linked list (you may want to make a listnode struct/class within Queue).
+
+Implement the following member functions of the queue class: - int getSize()- returns the number of elements in the queue (0 if empty) - bool isEmpty()- returns if the list has no elements, else false - void push()- pushes an item to the queue in O(1) time - int pop()- removes an item off the queue and returns the value in O(1) time - You should also implement the constructor which accepts no arguments and creates an empty queue, and a destructor for the class.
