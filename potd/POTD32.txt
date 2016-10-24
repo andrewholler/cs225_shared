@@ -1,0 +1,11 @@
+The Problem
+
+TODO:
+
+Write a method called requeue that accepts a node ** head (the head of a linked list) and an int times and returns nothing. The method should change the list as if the list were a queue (with the head being where we pop from) and pop followed by push were called times times on the queue. Make sure that head points to the new head of the linked list when you return. For example:
+
+Input: 1->2->3->4->5->NULL, times = 3
+Output: 4->5->1->2->3->NULL
+
+Input: 1->2->3->4->5->NULL, times = 6
+Output: 2->3->4->5->1->NULL
