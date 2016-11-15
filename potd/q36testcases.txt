@@ -1,0 +1,31 @@
+File 1:
+
+(Empty file)
+
+Expected output:
+
+(Nothing)
+
+Test that the empty file does not cause the program to crash.
+
+File 2:
+this line has purple in it
+this one does not
+
+Expected output:
+this line has purple in it
+
+Test that lines with purple are printed while those without purple are not
+
+File 3:
+purple is cool
+nothing beats purple
+
+purple
+
+Expected output:
+purple is cool
+nothing beats purple
+purple
+
+Test that blank lines are not outputed. Tests that purple is recognized if it is the first, last, or only word in the line.

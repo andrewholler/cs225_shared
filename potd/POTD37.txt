@@ -1,0 +1,18 @@
+The Problem
+
+    Write a program that takes a positive integer x from stdin and either prints if x is prime, or if it is not prime, prints out the numbers less than x that evenly divide x
+        You can assume that the input will be an integer
+    Create a text file called testcases.txt and in it write
+        3 inputs
+        what you expect the output to be
+        and why you chose them
+
+Sample inputs and outputs:
+
+Input: 5
+
+Output: 5 is prime
+
+Input: 6
+
+Output: 1 2 3 divide 6

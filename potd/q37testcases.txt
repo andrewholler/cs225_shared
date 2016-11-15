@@ -1,0 +1,23 @@
+Test 1:
+0
+
+Expected output:
+Please enter a positive integer.
+
+It was only specified that the input would be an integer. 0 is the largest non positive integer.Test that incorrect input is handled correctly.
+
+Test 2:
+1
+
+Expected output:
+1 is prime
+
+Test that one, the smallest prime number, is considered prime.
+
+Test 3:
+4
+
+Exptected output:
+1 2 divide 4
+
+Test that program behaves correctly for positive composite integers.

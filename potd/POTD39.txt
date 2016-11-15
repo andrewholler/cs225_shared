@@ -1,0 +1,10 @@
+The Problem
+
+    Write a function reverse that takes in one string as an argument and returns the reversal of the string
+    Write a main function that calls your reverse method with the inputs 522SC, SI, and LOOC and print the results on separate lines to stdout.
+
+Sample input and output to reverse:
+
+Input: hello
+
+Output: olleh
