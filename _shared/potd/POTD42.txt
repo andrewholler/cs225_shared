@@ -1,0 +1,12 @@
+The Problem
+
+Write a helper method that prints out the current board to stdout. For example, if each player made one move, the board might look like:
+
+X  |   |
+___|___|___
+   |O  |  
+___|___|___
+   |   |  
+   |   |
+
+(Please feel free to make a better looking board)

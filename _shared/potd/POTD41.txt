@@ -1,0 +1,7 @@
+The Problem
+
+Over the next three questions you are going to be writing an n × n tic-tac-toe program (https://en.wikipedia.org/wiki/Tic-tac-toe). As an overview, your program will prompt the user to enter an integer n which will determine the size of the board (n × n). No matter what the board size, you will need to get only 3 in a row to win. Your program will then prompt the two users to input where they would like to go until someone wins or the board is full.
+
+We require you to write three helper functions to complete this program, but feel free to write as many as you need. First you must choose how you are going to store the game board data- whether each square on the board is empty, has an X, or has an O. What data structure would work the best in terms of ease of access, speed of access, storage required?
+
+TODO: * Today you will be writing a helper method that accepts user input as to where they would like to place and X or O * You can accept the input in whatever form you would like, just be sure to prompt the user so they know the correct format * You should continue to prompt the user for input if they enter invalid input (if they try to play in a square that is beyond the dimmensions of the board or a square that is already filled)

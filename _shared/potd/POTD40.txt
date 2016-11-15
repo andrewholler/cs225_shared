@@ -1,0 +1,9 @@
+The Problem
+
+    You are going write a program that cracks a caesar cipher
+    You have intercepted a secret message from the CS225 TAs that says when the next 225 pop quiz will be and what it will cover. The only thing is, it has been encrypted with a caesar cipher. You only know one piece of information: the message conatians the phrase "pop quiz" at least once in it
+        (HINT: only one shift amount will result in "pop quiz" appearing in the string)
+    The message is in the file encrypted.txt
+        It contains only uppercase letters and spaces
+    Write a program that decrypts the message and writes it to a file decrypted.txt
+    In a comment write what the runtime of your algorithm is in terms of n, the number of letters in the input message

@@ -1,0 +1,7 @@
+The Problem
+
+    Create an empty text file named test.txt in your current directory
+    Write a program that:
+        Writes two lines to the file
+        Then opens the file and read the two lines in and print them to stdout
+        Make sure that your program does not leak any resources (e.g., not closing open files)

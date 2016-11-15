@@ -1,0 +1,7 @@
+The Problem
+
+    Write a program that reads a file called text.txt line by line and prints out all of the lines that have the string "purple" in them
+    In a text file called testcases.txt, write
+        three differnt testcases (what the contents of text.txt would look like)
+        why you chose those test cases, and what you would expect the outputs to be
+        Then alter the contents of text.txt to see if your program produces the expected output for your test cases
