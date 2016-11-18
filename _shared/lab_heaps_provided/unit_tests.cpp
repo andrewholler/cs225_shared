@@ -112,39 +112,64 @@ UNIT_TEST(heapifyDown5, 10, 9, 5000)
 #endif // MONAD_SPLIT
 
 #if MONAD_SPLIT
+bool heap_equals_output(stringstream & s, string filename)
+{
+    ifstream file(filename);
+    string soln_s;
+    string out_s;
+
+    while(getline(file, soln_s))
+    {
+        if(!getline(s, out_s))
+            return false;
+
+        if(out_s.compare(soln_s) != 0)
+            return false;
+    }
+    if(getline(s, soln_s))
+        return false;
+
+    return true;
+}
+
 /**
  * test build heap (make sure printed heaps are the same)
  */
-void helpTestBuildHeap(const vector<int> & vals, const string & filename)
+void helpTestBuildHeap(const vector<int> & vals, const string & filename, const string & filename2)
 {
     heap<int> herp(vals);
     stringstream ss;
     ss << herp;
-    ASSERT_HEAP_EQUALS(ss.str(), filename);
+    stringstream ss2(ss.str());
+    //ASSERT_HEAP_EQUALS(ss.str(), filename);
+    bool pass = heap_equals_output(ss, filename) || heap_equals_output(ss2, filename2);
+
+    if(!pass)
+        FAIL("Didn't match any of the solution files");
 }
 
 UNIT_TEST(buildHeap1, 10, 9, 5000)
 {
     vector<int> vals = {3, 2, 1};
-    helpTestBuildHeap(vals, "soln_buildHeap1.out");
+    helpTestBuildHeap(vals, "soln_buildHeap1.out", "soln_buildHeap1.out2");
 }
 
 UNIT_TEST(buildHeap2, 10, 9, 5000)
 {
     vector<int> vals = {5, 7, 2, 9, 8, 1};
-    helpTestBuildHeap(vals, "soln_buildHeap2.out");
+    helpTestBuildHeap(vals, "soln_buildHeap2.out", "soln_buildHeap2.out2");
 }
 
 UNIT_TEST(buildHeap3, 10, 9, 5000)
 {
     vector<int> vals = {30, 39, 69, 11, 52, 64, 94, 98, 21, 25, 87, 1, 83};
-    helpTestBuildHeap(vals, "soln_buildHeap3.out");
+    helpTestBuildHeap(vals, "soln_buildHeap3.out", "soln_buildHeap3.out2");
 }
 
 UNIT_TEST(buildHeap4, 10, 9, 5000)
 {
     vector<int> vals = {47, 36, 76, 40, 14, 100, 23, 56, 70, 71, 35, 62, 6, 16, 90, 37, 18};
-    helpTestBuildHeap(vals, "soln_buildHeap4.out");
+    helpTestBuildHeap(vals, "soln_buildHeap4.out", "soln_buildHeap4.out2");
 }
 
 UNIT_TEST(buildHeap5, 10, 9, 5000)
@@ -153,6 +178,6 @@ UNIT_TEST(buildHeap5, 10, 9, 5000)
             46, 67, 39, 25, 78, 48, 76, 19, 89, 22, 49, 83, 99, 45, 88, 28, 73,
             84, 7, 4, 30, 83, 48, 79, 54, 24, 92, 44, 97, 24, 46, 78, 28, 56,
             6, 74, 37, 82, 21, 71, 93, 74, 45, 15, 69, 35, 41, 85, 86, 62, 52, 71};
-    helpTestBuildHeap(vals, "soln_buildHeap5.out");
+    helpTestBuildHeap(vals, "soln_buildHeap5.out", "soln_buildHeap5.out2");
 }
 #endif // MONAD_SPLIT
