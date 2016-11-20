@@ -1,0 +1,12 @@
+The Problem
+
+    Look at the code provided in q46.cpp. You can modify the classes and functions as necessary
+    Using your knowledge of polymorphism, create an array of objects created on the stack to input into the printColors function that results in the following output:
+
+Fruits come in a variety of colors.
+
+Foods come in a variety of colors.
+
+A banana is yellow.
+
+A strawberry is red.

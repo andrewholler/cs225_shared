@@ -1,0 +1,19 @@
+The Problem
+
+Write a main method in q45.cpp that passes the correct parameters into functions 1--6 so that they print the following:
+
+Hail to the Orange.
+
+Hail to the Blue.
+
+Hail Alma Mater,
+
+Ever so true.
+
+We love no other,
+
+So let our motto be
+
+Victory, Illinois, Varsity.
+
+Do NOT change the functions themselves.
