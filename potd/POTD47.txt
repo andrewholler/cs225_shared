@@ -1,0 +1,6 @@
+The Problem
+
+    Ever wonder what that #define and #ifndef stuff is at the beginning of classes? Read this tutorial If you need a review on macros in general, this might help.
+    Write a program that defines one macro that substitutes some text of your choosing with the string "purple" and another macro IAMDEFINED that does not get substituted with anything
+    Write a main function that prints out "purple is a great color" only if IAMDEFINED is defined using your macros
+    In a comment explain what a header guard is and why they are useful

@@ -1,0 +1,21 @@
+The Problem
+
+The student employment office has asked you to write a bit of code to help them keep track of student time cards. You can (and should) utilize STL data structures in this problem.
+
+TODO:
+* Declare the data structure that will be used to hold the time card information as a global variable (in practice you would not store all of your data in a global variable, but for our purposes it makes life easier)
+* The following is the required information and functionality of time cards:
+    * The records should be able to be looked up by student UIN
+    * For each student UIN there needs to be a list of time enteries that consist of the amount of time spent working in minutes and a description of what they did
+* Your main method should continue to do the following until "n" is entered:
+    * Prompt the user to enter a UIN
+    * Prompt the user to enter an amount of time in minutes (assume the user rounds to the nearest minute)
+    * Prompt the user to enter a description of the task they performed
+    * Ask the user if they would like to enter another time entry (y/n)
+    * You can assume the user will enter valid input
+* Write a helper method called addTime(int uin, int time, string task) that adds this information to the data structure. 
+
+Sample input:
+123456789
+60
+Proctored exam 1
